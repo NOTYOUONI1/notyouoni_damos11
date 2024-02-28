@@ -1,25 +1,50 @@
-print("name")
-print("Rakib")
-print(50)
-print(70+30)
-name = "rakib"
-age = 158
-price = 1000000000000000000000000000000000000000000.0
-print("my name is :", name)
-print("my age :", age)
-print("this boy price is :", price)
-age2 = age
-print(type(name))
-print(type(age))
-print(type(price))
-name1 = "rk"
-age1 = 15
-price3 = 12.2
-print(name1, age1, price3)
-A = 24
-B = 233
-sum = A-B
-print("A - B =", sum)
-a,b = "1",5
-Txt = "@"
-print((a+Txt)*b)
+"""name = input("name : ")
+age = int(input("age : "))
+price = float(input("price : "))
+
+print("my name is", name, "my age", age,)"""
+
+'''Hi = input("Hello :")
+ki = input(input("ko :"))
+na = input(input("ho :"))'''
+
+#print("reply", Hi, "Reply", ki, "Reply", na,)
+#name = input("name :")
+#age = int(input("age :"))
+#price = float(input("price"))
+
+#print("my name is", name, "/" "my age", age,)
+'''light = input("light color :")
+
+if(light == "red"):
+    print("stop")
+
+elif(light == "blow"):
+    print("slow")
+
+elif(light == "orange"):
+    print("kak")'''
+'''marks = input("marks : ")
+
+if(marks >= 90):
+   print("A")
+
+elif(marks >= 80 ):
+    print("c")
+
+elif(marks >= 70):
+    print("B")
+    
+    print("D")
+    print("this ragal is", marks) # type: ignore'''
+'''age = int(input("age :"))
+vote = ("yes","no") [age < 18]
+print(vote)'''
+'''b = 4
+h = 9
+print(b + h)'''
+a = 2000
+b = 2000
+mun = 10
+mim = mun + 10
+print("mim :", mim)
