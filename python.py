@@ -16,3 +16,10 @@ name1 = "rk"
 age1 = 15
 price3 = 12.2
 print(name1, age1, price3)
+A = 24
+B = 233
+sum = A-B
+print("A - B =", sum)
+a,b = "1",5
+Txt = "@"
+print((a+Txt)*b)
