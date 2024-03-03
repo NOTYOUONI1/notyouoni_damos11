@@ -108,7 +108,155 @@ print(i[1])"""
 """i = (535,739485676,6426333356072356,87)
 print(type(i))
 print(i[0])"""
-a = input("cartoon name:")
+"""a = input("cartoon name:")
 b = int(input("ep :"))
 c = input("DETALs :")
-print("cartoon", a, "|" "BEST ep", b, "|" "DETAL", c)
+print("cartoon", a, "|" "BEST ep", b, "|" "DETAL", c)"""
+"""li = [1,2,3]
+l = li.copy()
+l.reverse()
+print(li, l)
+if(li == l):
+    print("h")
+else:
+    print("not")"""
+"""pi = int(input("enter number :"))
+p = int(input("enter number :"))
+if(pi == p):
+    print("h")
+else:
+    print("not")"""
+"""p = ["C", "D", "A", "A", "B", "B", "A"]
+l = p.sort()
+print(p)"""
+"""info = {
+    "key" : "dec",
+    "name" : "m",
+    "learing" : "book"
+}
+print(info)"""
+"""cl = int(input("Enter number :"))
+cL = int(input("Enter :"))
+c = int(input("Enter number"))
+print(cl+cL+c)"""
+"""def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    else:
+        return x / y
+
+print("Select operation:")
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+while True:
+    choice = input("Enter choice (1/2/3/4): ")
+
+    if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+
+        if choice == '1':
+            print("Result:", add(num1, num2))
+        elif choice == '2':
+            print("Result:", subtract(num1, num2))
+        elif choice == '3':
+            print("Result:", multiply(num1, num2))
+        elif choice == '4':
+            print("Result:", divide(num1, num2))
+    else:
+        print("Invalid input")
+    
+    again = input("Do you want to perform another calculation? (yes/no): ")
+    if again.lower() != "yes":
+        break
+"""
+"""c = input("Enter number :")
+C = input("enter number :")
+print("-/+")
+p = def(input("enter"))
+if(p = +):
+    print(c + C)
+elif(p = -):
+    print(c - C)"""
+"""dict = {
+    "name" :input("Name plese : "),
+    "age" : 15,
+}
+print(dict)"""
+"""dict = {
+    "name 1" : "rakib",
+    "name 2" : "sakib",
+    "name 3" : "maruf",
+    "name 4" : "doraemon",
+    "fb" : {
+        "fb" : "azira king",
+        "tiktok" : "oni",
+    }
+}
+l = {
+    "name f" : "rakib",
+    "name hg" : "sakib",
+    "name p" : "maruf",
+    "name o" : "doraemon",
+    "fbr" : {
+        "fbm" : "aziryfyua king",
+        "tiktopk" : "otuoni",
+    }
+}
+dict.update(l["fbr"])
+print(dict)
+"""
+"""c = set()
+c.add(1)
+c.add(9)
+c.add(4)
+c.remove(4)
+c.pop()
+c.pop()
+print(len(c))"""
+"""u = {1,2,3}
+i = {3,4,5}
+
+print(i.union(u))"""
+"""dict = {
+    "table" : ["a piece of furniture", "list of facts & figures"],
+    "cat" : "a small animal"
+}
+print(dict)
+subject = {
+    "python", "java", "c++", "c", "javasrip", "java", "c", "python"
+}
+print(len(subject))"""
+"""marks = {}
+
+x = int(input("java :"))
+marks.update({"java" : x}),
+
+x = int(input("english :"))
+marks.update({"english" : x})
+
+x = int(input("math :"))
+marks.update({"math" : x})
+
+print(marks)"""
+""""""
+"""i = 1
+n = int(input("* number : "))
+while (i <= 10):
+    print(n*i)
+    i += 1
+"""
+num = [1,20,60,433,644,4356,24243]
+print(num[int])
