@@ -245,7 +245,7 @@ x = int(input("java :"))
 marks.update({"java" : x}),
 
 x = int(input("english :"))
-marks.update({"english" : x})
+marks.update({"english" : x}) 
 
 x = int(input("math :"))
 marks.update({"math" : x})
@@ -258,5 +258,39 @@ while (i <= 10):
     print(n*i)
     i += 1
 """
-num = [1,20,60,433,644,4356,24243]
-print(num[int])
+"""num = (1,20,60,433,644,4356,24243)
+i = 1
+while i <= 5:
+    print("finding..")
+    if(i == 4):
+        break
+    i += 1
+print("total loop",i)"""
+"""p = [1,4,9,16,25,36,49,64,81,100]
+x = 36
+for list in p:
+    if list == x:
+        print("yes")
+    print(list)"""
+"""i = 1
+while i<= 100:
+    print(i)
+    i += 1"""
+"""for i in range(100,0, -1):
+    print(i)"""
+"""
+"""
+"""def lenth(list):
+    print(len(list), end="  ")
+
+r = [1,2]
+t = [6,6,0,3,9]
+lenth(r)
+lenth(t)
+print()"""
+"""i = input("enter your doller amount :")"""
+def dod(i):
+    tkk = i * 124
+    print(i,"=doller", tkk,"=tk")
+dod(l)
+l = input("enter your amount :")
