@@ -289,8 +289,42 @@ lenth(r)
 lenth(t)
 print()"""
 """i = input("enter your doller amount :")"""
-def dod(i):
+"""def dod(i):
     tkk = i * 124
     print(i,"=doller", tkk,"=tk")
 dod(l)
-l = input("enter your amount :")
+l = input("enter your amount :")"""
+"""i = "$$$$"
+print(i.count("$"))"""
+""""""""
+"""m = int(input("enter your mask :"))
+if(m > 70 and m <80):
+    print("c")
+elif(m > 80 and m <90):
+    print("b")
+elif(m > 90 and m <100):
+    print("a")
+elif(m >101):
+    print("a+")
+"""
+"""age = int(input("enter your age :"))
+if(age < 18 ):
+    if(age < 100):
+        print("non")
+    print("yes1")
+elif(age > 18):
+    print("no")
+"""
+"""a = int(input("enter your fast number : "))
+b = int(input("enter your fast seceand : "))
+c = int(input("enter your fast theard : "))
+#i = int(input())
+if( a > b and a > c):
+    print("lerges number=",a)
+elif(b > c):
+    print("lerges number=",b)
+else:
+    print("lerges number=",c)"""
+srang = [1,2,3,"rakib"]
+srang[0] = 3
+print(srang)
