@@ -325,6 +325,73 @@ elif(b > c):
     print("lerges number=",b)
 else:
     print("lerges number=",c)"""
-srang = [1,2,3,"rakib"]
+"""srang = [1,2,3,"rakib"]
 srang[0] = 3
-print(srang)
+print(srang)"""
+"""r = [20,593,'ralib',44]
+r[0]=[609]
+print(r[:2])"""
+"""list = ["rakib","sakib,","maruf",213,743,882]
+list1 = [4,74,97,654]
+list.append(78)
+print(list)"""
+"""list = [8,6,1,2,3,4,5,6]
+list.pop()
+print(list)"""
+"""tup = (5,9,8,8,8,)
+
+print(tup.count(8))"""
+"""i = [input("enter your first favourite movie :")]
+y = [input("enter your second favourite drama :")]
+print(i, "your first movie", y, "your secound drama")"""
+"""p = [1,2,3]
+l = [3,2,1]
+
+copy_l = l.copy()
+copy_l.reverse()
+
+if(l == p):
+    print("prandroom")
+else:
+    print("not prandroom")
+print(copy_l)"""
+"""dict = {
+    "name" : "rakib",
+    "name" : "rakib",
+    "roll" : 67,
+    "mask" : [12,74,90,91],
+    "dict2" : {
+        "name" : "rakib"
+    }
+}
+#dict.update({"name" : "rf"})
+gfddtu = set("123456789")
+gfddtu.remove("2")
+print(gfddtu)"""
+"""dict = {
+    "cat" : "animle",
+    "table" : ["a place of futere","rakib"]
+    
+}
+print(dict)
+
+DICT = {}
+
+#print(len(DICT))
+
+vai = set()
+vai.add("c")
+vai.add("java")
+vai.add("c++")
+vai.add("java")
+vai.add("python")
+vai.add("c")
+vai.add("javacript")
+print(len(vai))"""
+inp = input("enter your text :")
+ilp =int(input("ripit number :"))
+
+i=1
+while i <= ilp:
+    print(inp)
+    i+=1 

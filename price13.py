@@ -57,7 +57,7 @@ while True:
     if another_calculation.lower() != 'yes':
         break
 """
-import tkinter as tk
+"""import tkinter as tk
 from time import strftime
 
 def time():
@@ -73,3 +73,83 @@ label.pack(anchor = 'center')
 
 time()
 root.mainloop()
+"""
+inp = input("ক :")
+
+print('true') if inp == "k,c" or inp == "y" else print("not")
+
+
+inp = input("খ :")
+
+print('true') if inp == "kh" or inp == "y" else print("not")
+
+inp = input("গ :")
+
+print('true') if inp == "g" or inp == "y" else print("not")
+
+inp = input("ঘ :")
+
+print('true') if inp == "gh" or inp == "y" else print("not")
+
+inp = input("ঙ :")
+
+print('true') if inp == "ng" or inp == "y" else print("not")
+
+inp = input("চ :")
+
+print('true') if inp == "ch" or inp == "y" else print("not")
+
+inp = input("ছ :")
+
+print('true') if inp == "chh" or inp == "y" else print("not")
+
+inp = input("জ :")
+
+print('true') if inp == "jh" or inp == "y" else print("not")
+
+inp = input("ঞ :")
+
+print('true') if inp == "ng" or inp == "y" else print("not")
+
+inp = input("ট :")
+
+print('true') if inp == "t" or inp == "y" else print("not")
+
+print('true') if inp == "k,c" or inp == "y" else print("not")
+
+
+inp = input("ঠ :")
+
+print('true') if inp == "th" or inp == "y" else print("not")
+
+inp = input("ড :")
+
+print('true') if inp == "d" or inp == "y" else print("not")
+
+inp = input("ঢ :")
+
+print('true') if inp == "dh" or inp == "y" else print("not")
+
+inp = input("ণ :")
+
+print('true') if inp == "n" or inp == "y" else print("not")
+
+inp = input("ত :")
+
+print('true') if inp == "t" or inp == "y" else print("not")
+
+inp = input("থ :")
+
+print('true') if inp == "th" or inp == "y" else print("not")
+
+inp = input("দ :")
+
+print('true') if inp == "d" or inp == "y" else print("not")
+
+inp = input("ধ :")
+
+print('true') if inp == "dh" or inp == "y" else print("not")
+
+inp = input("ন :")
+
+print('true') if inp == "n" or inp == "y" else print("not")
