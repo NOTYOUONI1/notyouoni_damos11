@@ -379,19 +379,63 @@ DICT = {}
 
 #print(len(DICT))
 
-vai = set()
-vai.add("c")
-vai.add("java")
-vai.add("c++")
-vai.add("java")
-vai.add("python")
-vai.add("c")
-vai.add("javacript")
-print(len(vai))"""
-inp = input("enter your text :")
-ilp =int(input("ripit number :"))
 
-i=1
-while i <= ilp:
-    print(inp)
-    i+=1 
+#inp = input("enter your text :")
+#ilp =int(input("ripit number :"))
+""num = (1,2,3,4,5,6,7,8,9)
+i = 1
+while i < len(num):
+    if num == 4 :
+        print(4)
+    print()"""
+    
+"""list = (1,2,3,52,3,55,74,84,87,89,90,55)
+c = 55
+idx = 0
+for i in list:
+    if i == c:
+        print("number found at idx", idx)
+    idx += 1"""
+"""i = int(input("enter :"))
+p = int(input("enter x :"))
+l = 1
+while l <=p:
+    print(l*i,"", l)
+    l+=1"""
+
+
+"""def pla_rakib(a, b, t):
+    ki = a+b+t
+    ho = ki/3
+    return(ho)
+
+print(pla_rakib(1,2,3))
+ko = pla_rakib(1,2,3)
+print(ko)
+
+print("rakib hassain", end=" ")
+print("sakib ""\n""hassain")
+
+def function_name(a=2, b=3):
+    print(a*b)
+function_name(5)"""
+"""def no_line (l):
+    for list in l:
+        print(list,end="\n")
+
+hiros = ["rakib", "sakib", "doraemon"]
+
+no_line(hiros)"""
+#o = input("enter your amuont :")
+#h = int(input("enter doller price :"))
+"""def doler(i):
+    if(i == 1 or i == 0):
+        return 1
+    return doler(i-1) * i
+         
+#doler(5)
+print(doler(5))
+"""
+f = open("jm.txt", "r")
+data = f.read()
+print(data)
