@@ -436,6 +436,42 @@ no_line(hiros)"""
 #doler(5)
 print(doler(5))
 """
-f = open("jm.txt", "r")
-data = f.read()
-print(data)
+"""f = open("jm.txt", "r")
+line = f.read()
+print(line)
+f.close()"""
+#with open("rakib.txt", "a") as f:
+ #   data = f.write("Hi everyone\nWe are learning File I/O\nusing Java.\nl like programming in Java")
+"""with open("rakib.txt", "r") as f:
+    data = f.read()
+
+new_data = data.replace("Java", "python")
+
+print(new_data)
+
+with open("rakib.txt", "w") as f:
+    data = f.write(new_data)"""
+
+"""def data_find():
+       word = "python"
+       with open("rakib.txt", "r") as f:
+           data = f.read()
+           if(data == word):
+                print("line 1")
+           else:
+                print("no hava this text")
+
+def check_line():
+     with open ("rakib.txt", "r") as f:
+        data = f.readline()"""
+
+
+"""with open("rakib.txt", "r") as f:
+    data = f.read()
+    print(data)"""
+
+import qrcode as qr
+img = qr.make(input("enter link :"))
+img.save(input("png photo name :"))
+
+

@@ -1,0 +1,22 @@
+*{
+margin: 0px;
+}
+#main{
+    height: 655px;
+    width: 655px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:25vh;
+}
+.main3{
+    font-size: 25px;
+}
+p{
+    
+}
+#st{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
