@@ -470,8 +470,33 @@ def check_line():
     data = f.read()
     print(data)"""
 
-import qrcode as qr
+"""import qrcode as qr
 img = qr.make(input("enter link :"))
 img.save(input("png photo name :"))
+"""
+"""i = int(input('enter your number :'))
+l = 1
+while l <= 10:
+    print(i*l, l)
+    l += 1
+"""
+'''email_inputp = str(input("enter yur email addrese :"))
 
+h = email_inputp.isalpha
+
+print(h)'''
+"""import segno
+
+qrcode = segno.make_qr("Hello, World")
+qrcode.save(
+    "scaled_qrcode.png",
+    scale=50,
+    light="lightblue"
+    b
+)"""
+age =55
+if age > 18:
+    print("g")
+
+print()
 
