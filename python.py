@@ -494,9 +494,25 @@ qrcode.save(
     light="lightblue"
     b
 )"""
-age =55
-if age > 18:
-    print("g")
 
-print()
-
+"""class calk :
+    cal1 = int(input('first number :'))
+    cal2 = str(input('enter opration :'))
+    cal3 = int(input('secand number :'))
+    if cal2 == '+':
+        print(cal1 + cal3)
+    elif cal2 == '-':
+        print(cal1 - cal3)
+    elif cal2 == '*':
+        print(cal1 * cal3)
+    elif cal2 == '/':
+        print(cal1 / cal3)
+    elif cal2 == '%':
+        print(cal1 % cal3)
+    elif cal2 == '^':
+        print(cal1 ^ cal3)
+    else:
+        print('ERROR')
+"""
+"""r = 56
+print('yes') if r < 55 else print('no')"""
